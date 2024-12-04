@@ -23,42 +23,68 @@ function Framework() {
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
             <Col xs={4} md={2} className="tech-icons">
                 <DiPython />
+                <p className="text-sm">Python</p>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <SiTensorflow />
+                <SiTensorflow/>
+                <p className="text-sm">Tensorflow
+                </p>
+
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <SiScikitlearn />
+                <SiScikitlearn/>
+                <p className="text-sm">Scikit-learn
+                </p>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <SiReact />
+                <SiReact/>
+                <p className="text-sm">React
+                </p>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <DiNodejs />
+                <DiNodejs/>
+                <p className="text-sm">Node.js
+                </p>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <SiFlask />
+                <SiFlask/>
+                <p className="text-sm">Flask
+                </p>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <SiMysql />
+                <SiMysql/>
+                <p className="text-sm">MySQL
+                </p>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <SiPostgresql />
+                <SiPostgresql/>
+                <p className="text-sm">PostgreSQL
+                </p>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <DiPhp />
+                <DiPhp/>
+                <p className="text-sm">PHP
+                </p>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <DiDatabase />
+                <DiDatabase/>
+                <p className="text-sm">Database
+                </p>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <SiHtml5 />
+                <SiHtml5/>
+                <p className="text-sm">HTML
+                </p>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <SiCss3 />
+                <SiCss3/>
+                <p className="text-sm">CSS
+                </p>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <SiJavascript />
+                <SiJavascript/>
+                <p className="text-sm">JavaScript
+                </p>
             </Col>
         </Row>
     );
