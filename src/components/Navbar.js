@@ -3,12 +3,13 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
-import Button from "react-bootstrap/Button";
+/*import Button from "react-bootstrap/Button";*/
 import {Link} from "react-router-dom";
 import {
     AiOutlineHome,
-    AiOutlineFundProjectionScreen,
-    AiOutlineUser, AiOutlineContacts,
+/*    AiOutlineFundProjectionScreen,*/
+    AiOutlineUser,
+    /*AiOutlineContacts,*/
 } from "react-icons/ai";
 
 import {CgFileDocument} from "react-icons/cg";
@@ -66,18 +67,18 @@ function NavBar() {
                             </Nav.Link>
                         </Nav.Item>
 
-                        <Nav.Item>
-                            <Nav.Link
-                                as={Link}
-                                to="/projets"
-                                onClick={() => updateExpanded(false)}
-                            >
-                                <AiOutlineFundProjectionScreen
-                                    style={{marginBottom: "2px"}}
-                                />{" "}
-                                Projets
-                            </Nav.Link>
-                        </Nav.Item>
+                        {/*<Nav.Item>*/}
+                        {/*    <Nav.Link*/}
+                        {/*        as={Link}*/}
+                        {/*        to="/projets"*/}
+                        {/*        onClick={() => updateExpanded(false)}*/}
+                        {/*    >*/}
+                        {/*        <AiOutlineFundProjectionScreen*/}
+                        {/*            style={{marginBottom: "2px"}}*/}
+                        {/*        />{" "}*/}
+                        {/*        Projets*/}
+                        {/*    </Nav.Link>*/}
+                        {/*</Nav.Item>*/}
 
                         <Nav.Item>
                             <Nav.Link
@@ -88,16 +89,16 @@ function NavBar() {
                                 <CgFileDocument style={{marginBottom: "2px"}}/> CV
                             </Nav.Link>
                         </Nav.Item>
-                        <Nav.Item className="fork-btn ">
-                            <Button
-                                href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3LBlxM1LtvfHaTT3tFJ9vMvie91u8Uxl1pIOoZdHDAFpRVlSA5b85ra77TStefHosJP9uupGjo"
-                                target="_blank"
-                                className="fork-btn-inner d-flex justify-content-center"
-                            >
-                                <AiOutlineContacts style={{fontSize: "1.4em"}}/>
-                                <span style={{marginLeft:"6px"}}>Prendre rdv</span>
-                            </Button>
-                        </Nav.Item>
+                        {/*<Nav.Item className="fork-btn ">*/}
+                        {/*    <Button*/}
+                        {/*        href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3LBlxM1LtvfHaTT3tFJ9vMvie91u8Uxl1pIOoZdHDAFpRVlSA5b85ra77TStefHosJP9uupGjo"*/}
+                        {/*        target="_blank"*/}
+                        {/*        className="fork-btn-inner d-flex justify-content-center"*/}
+                        {/*    >*/}
+                        {/*        <AiOutlineContacts style={{fontSize: "1.4em"}}/>*/}
+                        {/*        <span style={{marginLeft:"6px"}}>Prendre rdv</span>*/}
+                        {/*    </Button>*/}
+                        {/*</Nav.Item>*/}
                     </Nav>
                 </Navbar.Collapse>
             </Container>

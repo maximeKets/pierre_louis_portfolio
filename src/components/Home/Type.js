@@ -7,7 +7,7 @@ function Type() {
             options={{
                 strings: [
                     "Développeur Web",
-                    "Futur Développeur IA / Data analyst",
+                    "Futur Développeur IA / Data Scientist",
                     "EPSI Montpellier Bachelor Développeur IA ",
                 ],
                 autoStart: true,

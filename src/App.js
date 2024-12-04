@@ -3,7 +3,7 @@ import Preloader from "./components/Pre";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
-import Projects from "./components/Projects/Projects";
+// import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
 import {BrowserRouter as Router, Route, Routes, Navigate} from "react-router-dom";
@@ -36,12 +36,12 @@ function App() {
                     <div className="flex-grow">
                         <Routes>
                             <Route path="/" element={<Home/>}/>
-                            <Route path="/projets" element={<Projects/>}/>
+                            {/*<Route path="/projets" element={<Projects/>}/>*/} {/*TODO add if needed*/}
                             <Route path="/profil" element={<About/>}/>
                             <Route path="/cv" element={<Resume/>}/>
                             <Route path="*" element={<Navigate to="/"/>}/>
                         </Routes>
-                        <SpeedInsights/>
+
                     </div>
                     <Footer/>
                 </div>

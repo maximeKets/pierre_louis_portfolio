@@ -1,48 +1,64 @@
 import React from "react";
-import {Col, Row} from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 import {
     DiNodejs,
+    DiPython,
+    DiPhp,
+    DiDatabase,
 } from "react-icons/di";
 import {
-    SiDjango,
-    SiLaravel,
-    SiSymfony,
+    SiTensorflow,
+    SiScikitlearn,
     SiReact,
-    SiWordpress,
-    SiWebflow,
-    SiShopify, SiWagtail,
+    SiFlask,
+    SiMysql,
+    SiPostgresql,
+    SiHtml5,
+    SiCss3,
+    SiJavascript,
 } from "react-icons/si";
 
 function Framework() {
     return (
-        <Row style={{justifyContent: "center", paddingBottom: "50px"}}>
+        <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
             <Col xs={4} md={2} className="tech-icons">
-                <SiDjango/>
+                <DiPython />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <SiWagtail/>
+                <SiTensorflow />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <SiLaravel/>
+                <SiScikitlearn />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <SiSymfony/>
-            </Col>
-
-            <Col xs={4} md={2} className="tech-icons">
-                <SiWordpress/>
+                <SiReact />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <SiWebflow/>
+                <DiNodejs />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <SiShopify/>
+                <SiFlask />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <SiReact/>
+                <SiMysql />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <DiNodejs/>
+                <SiPostgresql />
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <DiPhp />
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <DiDatabase />
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <SiHtml5 />
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <SiCss3 />
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <SiJavascript />
             </Col>
         </Row>
     );

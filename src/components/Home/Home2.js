@@ -15,41 +15,33 @@ function Home2() {
                 <Row>
                     <Col md={8} className="home-about-description">
                         <h1 style={{fontSize: "2.2em"}}>
-                            QUAND <span className="purple"> L'ADVERSITÉ </span> DEVIENT <span
-                            className="purple"> OPPORTUNITÉ </span>
+                            TRANSFORMER <span className="purple"> L'AMBITION </span> EN <span className="purple"> INNOVATION </span>
                         </h1>
                         <p className="home-about-body">
-                            Mon parcours professionnel a
+                            Passionné par le potentiel de l'intelligence artificielle, je suis un
                             <i>
-                                <b className="purple"> débuté dans le commerce, </b>
-                            </i> où j'ai acquis polyvalence et capacité d'adaptation en
-                            travaillant à divers postes. 🏬
+                                <b className="purple"> développeur IA et data science </b>
+                            </i> en quête constante d'excellence technique et stratégique. 🚀
                             <br/>
                             <br/>
-                            Mais c'est fin 2019 que la véritable
+                            Mon parcours, jalonné par des études rigoureuses et des projets ambitieux, reflète mon
                             <i>
-                                <b className="purple"> aventure a commencé. </b>
+                                <b className="purple"> goût pour les défis technologiques. </b>
                             </i>
-                            J'ai créé ma micro-entreprise, un pari risqué à l'époque, car
-                            quelques mois plus tard, le confinement est arrivé.
-
+                            De la création d'un tracker GPS avec des technologies modernes comme Raspberry Pi et Sigfox, à la conception d'une plateforme web interactive, chaque projet est une opportunité de repousser mes limites. 🌟
                             <br/>
                             <br/>
-                            Ce qui semblait être un coup dur s'est transformé en une
+                            Mes expériences m'ont permis d'acquérir une expertise en
                             <i>
-                                <b className="purple"> opportunité inattendue. </b>
+                                <b className="purple"> programmation, architecture d’applications, </b>
                             </i>
-                            Incapable de vendre mes produits
-                            en personne, j'ai lancé une boutique en ligne.
+                            et déploiement de solutions d’IA. Je maîtrise les langages comme Python, C++, JavaScript, ainsi que la gestion de bases de données avec SQL et MySQL.
                             <br/>
                             <br/>
-                            C'est à ce moment-là que la flamme est née.
-                            Envoûtée par ce domaine alliant   &nbsp;
+                            Mon objectif ultime ? Devenir un
                             <i>
-                                <b className="purple">perpétuelle évolution,
-                                    possibilités infinies, logique et créativité </b>
-                            </i>
-                            – ma formule magique. 🧙✨
+                                <b className="purple"> architecte développeur IA </b>
+                            </i> capable de concevoir des solutions innovantes et éthiques, tout en guidant les équipes vers une vision technologique d'avenir. 💡
                         </p>
                     </Col>
                     <Col md={4} className="myAvtar">
@@ -89,7 +81,7 @@ function Home2() {
                         <ul className="home-about-social-links">
                             <li className="social-icons">
                                 <a
-                                    href="https://github.com/maximeKets"
+                                    href="https://github.com/HASHT85"
                                     target="_blank"
                                     rel="noreferrer"
                                     className="icon-colour  home-social-icons"
@@ -99,7 +91,7 @@ function Home2() {
                             </li>
                             <li className="social-icons">
                                 <a
-                                    href="tel:0767882178"
+                                    href="tel:0683313170"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="icon-colour  home-social-icons"
@@ -110,7 +102,7 @@ function Home2() {
                             </li>
                             <li className="social-icons">
                                 <a
-                                    href="https://www.linkedin.com/in/maxime-kets/"
+                                    href="https://www.linkedin.com/in/pierre-louis-guinel-54767b279/"
                                     target="_blank"
                                     rel="noreferrer"
                                     className="icon-colour  home-social-icons"
@@ -120,7 +112,7 @@ function Home2() {
                             </li>
                             <li className="social-icons">
                                 <a
-                                    href="mailto:maximekets80@gmail.com"
+                                    href="mailto:pierrelouis.guinel@gmail.com"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="icon-colour  home-social-icons"

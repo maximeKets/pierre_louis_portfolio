@@ -10,16 +10,16 @@ function Footer() {
         <Container fluid className="footer">
             <Row>
                 <Col md="4" className="footer-copywright">
-                    <h3>Réalisé avec 🫶 par Maxime Kets.</h3>
+                    <h3>Réalisé avec 🫶 par Pierre-Louis Guinel.</h3>
                 </Col>
                 <Col md="4" className="footer-copywright">
-                    <h3>Crédits : Soumyajit Behera</h3>
+                    {/*<h3>Crédits : Soumyajit Behera</h3>*/}
                 </Col>
                 <Col md="4" className="footer-body">
                     <ul className="footer-icons">
                         <li className="social-icons">
                             <a
-                                href="https://github.com/maximeKets"
+                                href="https://github.com/HASHT85"
                                 style={{color: "white"}}
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -29,7 +29,7 @@ function Footer() {
                         </li>
                         <li className="social-icons">
                             <a
-                                href="https://www.linkedin.com/in/maxime-kets/"
+                                href="https://www.linkedin.com/in/pierre-louis-guinel-54767b279/"
                                 style={{color: "white"}}
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -39,7 +39,7 @@ function Footer() {
                         </li>
                         <li className="social-icons">
                             <a
-                                href="mailto:maximekets80@gmail.com"
+                                href="mailto:pierrelouis.guinel@gmail.com"
                                 style={{color: "white"}}
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -49,7 +49,7 @@ function Footer() {
                         </li>
                         <li className="social-icons">
                             <a
-                                href="tel:0767882178"
+                                href="tel:0683313170"
                                 style={{color: "white"}}
                                 target="_blank"
                                 rel="noopener noreferrer"

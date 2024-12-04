@@ -8,42 +8,38 @@ function AboutCard() {
             <Card.Body>
                 <blockquote className="blockquote mb-0">
                     <p style={{textAlign: "justify"}}>
-                        Après 18 mois de formation au
-                        <a className="no-underline" rel="noreferrer" target={"_blank"}
-                           href={"https://le-campus-numerique.fr/formations-developpeur2/#webetapplisalternance"}>
-                            <span className="purple"> "campus numérique In the Alps"</span>
-                        </a>, dont 12 en alternance chez
-                        <span className="purple"> Park4Night </span>
-                        en tant que
-                        <span className="purple"> développeur Full Stack</span>
-                        , j'ai acquis une maîtrise des principaux langages et frameworks associés.
+                        Actuellement en Bachelor <span className="purple">"Développeur IA & Datascience"</span> à l'<span className="purple">EPSI Montpellier</span>,
+                        je mets à disposition mes compétences pour une alternance / stage, en développant des solutions innovantes et performantes dans le domaine de l’intelligence artificielle.
                         <br/>
                         <br/>
-                        Depuis un an, je travaille en freelance,
-                        réalisant plusieurs projets principalement en Python.
+                        Mon parcours inclut un <span className="purple">BTS Systèmes Numériques</span>, où j'ai appris les bases essentielles de la programmation et des infrastructures réseau.
+                        J'ai également réalisé des projets significatifs, comme un tracker GPS performant intégrant des technologies modernes telles que Raspberry Pi, Sigfox, et Leaflet.
+                        <br/>
+                        <br/>
+                        En parallèle, j’ai eu des expériences enrichissantes en datacenters et en électronique, qui m’ont permis de comprendre les enjeux matériels et logiciels des systèmes informatiques.
                         <br/>
                         <br/>
                         Aujourd'hui, mes forces sont :
                     </p>
                     <ul>
                         <li className="about-activity">
-                            <ImPointRight/> Python, PHP, JavaScript
+                            <ImPointRight/> Python, JavaScript, PHP, et C++
                         </li>
                         <li className="about-activity">
-                            <ImPointRight/> Collecter, agréger et nettoyer des données
+                            <ImPointRight/> Développement d'applications IA et déploiement de solutions innovantes
                         </li>
                         <li className="about-activity">
-                            <ImPointRight/> Force de proposition, résilience et résolution de problèmes
+                            <ImPointRight/> Gestion de bases de données (SQL, MySQL) et workflows data science
                         </li>
                         <li className="about-activity">
-                            <ImPointRight/> Fluent english
+                            <ImPointRight/> Créativité, esprit d’équipe et capacité à résoudre des problèmes complexes
                         </li>
                     </ul>
 
                     <p style={{color: "rgb(155 126 172)"}}>
-                        "Se réunir est un début, rester ensemble est un progrès, travailler ensemble est la réussite."{" "}
+                        "L'innovation ne naît jamais de la certitude, mais de la curiosité et de l'audace."{" "}
                     </p>
-                    <footer className="blockquote-footer">Henry Ford</footer>
+                    <footer className="blockquote-footer">Inspiration personnelle</footer>
                 </blockquote>
             </Card.Body>
         </Card>

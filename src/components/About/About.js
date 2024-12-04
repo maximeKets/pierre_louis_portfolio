@@ -1,10 +1,10 @@
 import React from "react";
 import {Container, Row, Col} from "react-bootstrap";
 import Particle from "../Particle";
-import Techstack from "./Techstack";
+// import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
-import Toolstack from "./Toolstack";
+// import Toolstack from "./Toolstack";
 import Framework from "./Framework";
 
 function About() {
@@ -35,19 +35,19 @@ function About() {
                     </Col>
                 </Row>
                 <h1 className="project-heading">
-                    Languages de <strong className="purple">Programmation</strong>
+                    Stack <strong className="purple">Technique</strong>
                 </h1>
 
-                <Techstack/>
+                {/*<Techstack/>*/}
 
-                <h1 className="project-heading">
-                    Les <strong className="purple">Outils</strong>
-                </h1>
-                <Toolstack/>
+                {/*<h1 className="project-heading">*/}
+                {/*    Les <strong className="purple">Outils</strong>*/}
+                {/*</h1>*/}
+                {/*<Toolstack/>*/}
 
-                <h1 className="project-heading">
-                    Les <strong className="purple">Frameworks</strong>
-                </h1>
+                {/*<h1 className="project-heading">*/}
+                {/*    Les <strong className="purple">Frameworks</strong>*/}
+                {/*</h1>*/}
                 <Framework/>
             </Container>
         </Container>
